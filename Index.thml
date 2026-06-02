@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>මගේ පළමු වෙබ් අඩවිය</title>
+    <!-- CSS ෆයිල් එක සම්බන්ධ කිරීම -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <nav>
+        <a href="Index.html">Home</a> | 
+        <a href="about.html">About Me</a>
+    </nav>
+
+    <header>
+        <h1>ආයුබෝවන්!</h1>
+        <p>දුරකථනයෙන් නිර්මාණය කල මගේ පළමු වෙබ් අඩවිය</p>
+    </header>
+
+    <main>
+        <img src="https://picsum.photos/150" alt="Profile Picture" class="profile-img">
+
+        <section class="card">
+            <h2>මගේ විෂයයන් (A/L Commerce)</h2>
+            <ul>
+                <li>ගිණුම්කරණය (Accounting)</li>
+                <li>ව්‍යාපාර අධ්‍යයනය (Business Studies)</li>
+                <li>තොරතුරු හා සන්නිවේදන තාක්ෂණය (ICT)</li>
+            </ul>
+        </section>
+        
+        ```
+
+---
+
+### 📝 පියවර 3: `about.html` එකටත් Menu එක එකතු කිරීම
+`about.html` පිටුවට ගියාමත් මේ Menu එකම උඩින් පේන්න ඕනේ නිසා, `about.html` එකේ **`<body>`** Tag එකටත් යටින් මේ කේතයම ඇතුළත් කරන්න.
+
+```html
+
+
+    <nav>
+        <a href="Index.html">Home</a> | 
+        <a href="about.html">About Me</a>
+    </nav>
+
+    <header>
+        <h1>මා පිළිබඳව</h1>
+...
+
+    <!-- ශීර්ෂකය (Header) -->
+    <header>
+        <h1>ආයුබෝවන්!</h1>
+        <p>දුරකථනයෙන් නිර්මාණය කල මගේ පළමු වෙබ් අඩවිය</p>
+    </header>
+
+    <!-- ප්‍රධාන අන්තර්ගතය (Main Content) -->
+    <main>
+        <section class="card">
+            <h2>මගේ විෂයයන් (A/L Commerce)</h2>
+            <ul>
+                <li>ගිණුම්කරණය (Accounting)</li>
+                <li>ව්‍යාපාර අධ්‍යයනය (Business Studies)</li>
+                <li>තොරතුරු හා සන්නිවේදන තාක්ෂණය (ICT)</li>
+            </ul>
+        </section>
+
+        <section class="card">
+            <h2>අරමුණ</h2>
+            <p>A/L විභාගයෙන් ඉහළම ප්‍රතිඵලයක් (Island Rank) ලබාගැනීම සහ නව තාක්ෂණය ඉගෙන ගැනීම.</p>
+            <button onclick="alert('ස්තුතියි!')">Click කරන්න</button>
+        </section>
+                <!-- මගේ නිර්මාණ -->
+        <section class="card">
+            <h2>මගේ නිර්මාණ</h2>
+            <p>මම අලුතින් රචනා කළ ගීත සහ කවි මෙතැනින් කියවන්න පුළුවන්.</p>
+            <button onclick="alert('ඉක්මනින්ම ගීත ඇතුලත් කරනවා!')">ගීත බලන්න</button>
+        </section>
+        <!-- සම්බන්ධ වීමට (Contact Form) -->
+        <section class="card">
+            <h2>මා හා සම්බන්ධ වන්න</h2>
+            <form action="#" method="POST">
+                <label for="name">ඔබගේ නම:</label><br>
+                <input type="text" id="name" name="name" placeholder="නම ඇතුලත් කරන්න"><br><br>
+
+                <label for="msg">පණිවිඩය:</label><br>
+                <textarea id="msg" name="msg" rows="4" placeholder="ඔබගේ පණිවිඩය ලියන්න..."></textarea><br><br>
+
+                <button type="submit">පණිවිඩය යවන්න</button>
+            </form>
+        </section>
+<a href="about.html">මා පිළිබඳව තවත් විස්තර</a>
+
+    </main>
+
+    <!-- පාදකය (Footer) -->
+    <footer>
+        <p>© 2026 සකස් කළේ මමයි.</p>
+    </footer>
+
+
+</body>
+</html>
