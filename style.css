@@ -1,0 +1,111 @@
+/* මුළු පිටුවේම පසුබිම සහ අකුරු සැකසීම */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header එක හැඩගැන්වීම */
+header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+/* Main Content එක මැදට ගැනීම */
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* තොරතුරු ඇතුළත් කොටු (Cards) */
+.card {
+    background: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: #2980b9;
+    margin-top: 0;
+}
+
+/* Button එක ලස්සන කිරීම */
+button {
+    background-color: #27ae60;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button:hover {
+    background-color: #219653;
+}
+
+/* Footer එක සැකසීම */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #34495e;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+/* Form එකේ Input සහ Textarea හැඩගැන්වීම */
+input[type="text"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: inherit;
+}
+/* Navigation Bar එක හැඩගැන්වීම */
+nav {
+    background-color: #34495e;
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: #2980b9;
+    border-radius: 4px;
+}
+
+/* පින්තූරය හැඩගැන්වීම */
+.profile-img {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* රවුම් හැඩය ගැනීමට */
+    object-fit: cover;
+    border: 3px solid #2980b9;
+  }
+
